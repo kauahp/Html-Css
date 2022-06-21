@@ -1,0 +1,23 @@
+*{
+ padding: 0;
+    
+}
+
+body{
+    background: linear-gradient(to right,white,wheat);
+}
+
+
+.imagem h1{
+
+    font-size: 55px;
+    color: brown;
+    text-align: center;
+
+}
+
+.audio h1{
+    font-size: 55px;
+    color: brown;
+    text-align: center;
+}
