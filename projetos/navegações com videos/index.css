@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(73, 73, 73);
+    color:white
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.thumbs .hardware{
+    position: relative;
+    right:-450px;
+}
+
+.thumbs .html{
+    position: relative;
+    right:-500px ;
+}
+
+.thumbs .js{
+    position: relative;
+    right:-40px;
+    top: 150px;
+}
+
+.thumbs .phyton{
+    position: relative;
+    top: 150px;
+    right:-90px ;
+}

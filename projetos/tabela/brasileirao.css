@@ -1,0 +1,51 @@
+div{
+
+    font-size:20px;
+    color:white;}
+
+   .primeiro{
+
+    display:inline;
+    right: 320px;
+    position: absolute;
+    font-size:27px;}
+
+   .segundo{
+
+    display:inline;
+    right: 280px;
+    position: absolute;
+    font-size:27px;}
+
+   .terceiro{display:inline;right: 240px;position: absolute;font-size:27px;}
+
+   .quarto{display:inline;right: 200px;position: absolute;font-size:27px;}
+
+   .quinto{display:inline;right: 160px;position: absolute;font-size:27px;}
+
+   pre{color:white;font-size:25px ;}
+   
+   body{background:linear-gradient( 80deg,black,white)}
+
+
+   p1{color:white;}
+
+   p2{vertical-align: middle;right: 570px;position: absolute;font-size:27px;}
+
+   p3{font-size:30px;color:white;position: absolute;right:35cm;display:inline ;}
+
+   p5{vertical-align: middle;right: 470px;position: absolute;font-size:27px;}
+
+   .logo{text-align: center;}
+
+   .taça{display: inline-block;}
+
+   .lanterna{display: inline-block;}
+   
+    h1{text-align: center;
+        font-size: 70px;
+    color:white;}
+
+    .img{display:inline-block;vertical-align:middle ;}
+
+    .txt{display:inline-block;}
