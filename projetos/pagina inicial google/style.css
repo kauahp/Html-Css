@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(243, 243, 243);
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #181818; 
+}
+
+.navigation{
+    
+    display: flex;
+    position: absolute;
+    left: 86%;
+    
+   
+}
+
+.navigation__word{
+    margin-right:20px ;
+    font-weight: 600;
+    margin-top:26px;
+    font-size: 0.9.5rem;
+   
+}
+
+li::marker{
+    content: none;
+}
+
+.google__image{
+    background-color: red;
+    justify-align: center;
+}
