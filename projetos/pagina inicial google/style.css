@@ -7,6 +7,7 @@
 
 body{
     background-color: #181818; 
+    overflow-y: hidden;
 }
 
 a{
@@ -45,7 +46,14 @@ li::marker{
     left: 38%;
 }
 
+.img__mic{
+    position: absolute;
+    bottom:60%;
+    left:26%
+}
+
 .input__search{
+    max-width: 100%;
     position: absolute;
     outline: none;
     padding: 15px;
@@ -55,16 +63,32 @@ li::marker{
     bottom: 60%;
     left: 28%;
     color: #181818;
+    background-image: url(imagens/img__mic.png) ;
+    background-repeat: no-repeat;
+    background-size: 1.6rem;
+    background-position: 95%;   
+}
+
+
+
+.input__search::placeholder{
+   
 }
 
 .button__footer{
     position: absolute;
     border: none;
+    width: 13.5%;
     top: 94%;
     right: 1%;
     border-radius:55px;
     padding: 8px;
     cursor: pointer;
+    background-image: url(imagens/img__lapis.png);
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-position-y: 50%;
+    background-position-x:4% ;
     
 }
 
@@ -72,14 +96,15 @@ li::marker{
     color:rgb(74, 132, 241);
     margin: 15px;
     
+    
 }
 
 .circles{
     position: absolute;
     display: flex;
-    gap: 40px;
+    gap: 60px;
     bottom: 45%;
-    right: 41%;
+    right: 39%;
     cursor: pointer;
 }
 
@@ -90,11 +115,77 @@ li::marker{
     border-radius:50%;
 }
 
+.circle p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7vh;
+    position: absolute;
+    top:120%;
+}
+
+.p__chess{
+    position: absolute;
+    right:85%
+}
+
+.p__gmail{
+    position: absolute;
+    left:60% 
+}
+
+.p__jw{
+    position: absolute;
+    left:88%
+    
+}
+
 .images__circle{
     position: relative;
     left: 28%;
     top:25%;
 }
+
+@media(max-width:500px){
+    .navigation{
+        left:66%
+    }
+
+    .google__image{
+        left: 20%;
+    }
+
+    .input__search{
+        width: 65%;
+        left: 16%;
+    }
+
+    .circles{
+        left: 10%;
+    }
+
+    .p__chess{
+        right: 1000px;
+    }
+
+    .p__youtube{
+        right: 1000px;
+    }
+
+    .p__gmail{
+        left: 600px;
+    }
+
+    .p__jw{
+        left: 2002px;
+    }
+
+    .button__footer{
+        width: 40%;
+        
+    }
+
+    
+}
+
 
 
 
